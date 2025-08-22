@@ -16,24 +16,30 @@
 #   None
 #######################################
 print_banner() {
-
-  clear
-
-  printf "\n\n"
-
-printf "${CYAN_LIGHT}";
-
-printf ${CYAN_LIGHT}"    _____ _____ _   _ ___________ _____ _____  _   _   ___ _____ \n";
-printf ${CYAN_LIGHT}"   |  ___|  _  | | | |_   _| ___ \  ___/  __ \| | | | / _ \_   _| \n";
-printf ${CYAN_LIGHT}"   | |__ | | | | | | | | | | |_/ / |__ | /  \/| |_| |/ /_\ \| |  \n";
-printf ${CYAN_LIGHT}"   |  __|| | | | | | | | | |  __/|  __|| |    |  _  ||  _  || |  \n";
-printf ${CYAN_LIGHT}"   | |___\ \/' / |_| |_| |_| |   | |___| \__/\| | | || | | || |  \n";
-printf ${CYAN_LIGHT}"   \____/ \_/\_\\___/ \___/\_|   \____/ \____/\_| |_/\_| |_/\_/  \n";
- 
-
-printf "${CYAN_LIGHT}";
-  
-  printf "${NC}";
-
-  printf "\n"
+    # Definir cores
+    GREEN='\033[0;32m'
+    BLUE='\033[0;34m'
+    CYAN='\033[0;36m'
+    YELLOW='\033[1;33m'
+    RESET='\033[0m'
+    
+    clear
+    printf "\n\n"
+    
+    # Banner com estilo
+    printf "${GREEN}╔════════════════════════════════════════════════╗${RESET}\n"
+    printf "${GREEN}║${RESET}                                                ${GREEN}║${RESET}\n"
+    printf "${GREEN}║${RESET}    ${YELLOW}██████╗ ██╗   ██╗██╗ █████╗     ${RESET}        ${GREEN}║${RESET}\n"
+    printf "${GREEN}║${RESET}    ${YELLOW}██╔══██╗╚██╗ ██╔╝██║██╔══██╗    ${RESET}        ${GREEN}║${RESET}\n"
+    printf "${GREEN}║${RESET}    ${YELLOW}██████╔╝ ╚████╔╝ ██║███████║    ${RESET}        ${GREEN}║${RESET}\n"
+    printf "${GREEN}║${RESET}    ${YELLOW}██╔═══╝   ╚██╔╝  ██║██╔══██║    ${RESET}        ${GREEN}║${RESET}\n"
+    printf "${GREEN}║${RESET}    ${YELLOW}██║        ██║   ██║██║  ██║    ${RESET}        ${GREEN}║${RESET}\n"
+    printf "${GREEN}║${RESET}    ${YELLOW}╚═╝        ╚═╝   ╚═╝╚═╝  ╚═╝    ${RESET}        ${GREEN}║${RESET}\n"
+    printf "${GREEN}║${RESET}                                                ${GREEN}║${RESET}\n"
+    printf "${GREEN}║${RESET}        ${CYAN}╔══════════════════════════╗${RESET}        ${GREEN}║${RESET}\n"
+    printf "${GREEN}║${RESET}        ${CYAN}║   🚀  PYIA CHATBOT  🚀   ║${RESET}        ${GREEN}║${RESET}\n"
+    printf "${GREEN}║${RESET}        ${CYAN}╚══════════════════════════╝${RESET}        ${GREEN}║${RESET}\n"
+    printf "${GREEN}║${RESET}                                                ${GREEN}║${RESET}\n"
+    printf "${GREEN}╚════════════════════════════════════════════════╝${RESET}\n"
+    printf "\n\n"
 }
