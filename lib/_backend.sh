@@ -85,6 +85,10 @@ GERENCIANET_CLIENT_SECRET=sua_chave_secreta
 GERENCIANET_PIX_CERT=nome_do_certificado
 GERENCIANET_PIX_KEY=chave_pix_gerencianet
 
+# 🔒 USE VARIÁVEIS DE AMBIENTE OU CONFIGURE DEPOIS
+FEN_API_USER="\${FEN_API_USER:-sua_fen_api_user_aqui}"
+FEN_API_SECRET="\${FEN_API_SECRET:-sua_fen_api_secret_aqui}"
+
 MAIL_HOST="smtp.titan.email"
 MAIL_USER="contacto@pyia.com.py"
 MAIL_PASS="Cstrike16"
