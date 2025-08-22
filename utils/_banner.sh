@@ -16,13 +16,7 @@
 #   None
 #######################################
 print_banner() {
-    # Definir cores
-    GREEN='\033[0;32m'
-    BLUE='\033[0;34m'
-    CYAN='\033[0;36m'
-    YELLOW='\033[1;33m'
-    RESET='\033[0m'
-    
+  
     clear
     printf "\n\n"
     
